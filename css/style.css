@@ -185,7 +185,7 @@ p {
 }
 .profile {
   position: relative;
-  top: 15em;
+  top: 10em;
   right: 50px;
 }
 .about,
@@ -335,7 +335,7 @@ p {
   }
   .profile {
     position: relative;
-    top: 32em;
+    top: 28em;
     right: 80px;
   }
   .about,
