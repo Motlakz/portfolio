@@ -1,0 +1,355 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+}
+
+body {
+  height: 100vh;
+  background-image: url("../media/img/cool-background.png");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  color: #525050;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.card {
+  position: relative;
+  width: 50em;
+  text-align: center;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.17);
+}
+.card-header {
+  background: rgb(139, 0, 139);
+  padding: 60px 40px;
+}
+.pic {
+  display: inline-block;
+  padding: 10px;
+  margin: auto;
+  border-radius: 50%;
+}
+.pic img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid aliceblue;
+}
+.name {
+  color: #fff;
+  font-family: cursive;
+  font-size: 30px;
+  font-weight: 700;
+  background-color: #e6027e;
+}
+.title {
+  color: rgb(194, 221, 245);
+  font-family: "Tangerine";
+  font-size: 50px;
+  margin: 30px 0 0 0;
+}
+.about {
+  position: absolute;
+  left: 70%;
+  top: 88%;
+}
+.left {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: flex-start;
+}
+.right {
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+}
+.builder,
+.collabos,
+.explore {
+  position: relative;
+}
+.builder {
+  bottom: 280px;
+}
+.collabos {
+  right: 70px;
+}
+.explore {
+  top: 280px;
+  right: 400px;
+}
+.unique,
+.teamplayer,
+.link {
+  position: relative;
+}
+.unique {
+  top: 300px;
+  left: 150px;
+}
+.teamplayer {
+  right: 50px;
+}
+.link {
+  bottom: 280px;
+  right: 200px;
+}
+.card2,
+.card3,
+.card4,
+.card5,
+.card6,
+.card7 {
+  background: #e6027e;
+  height: 50vh;
+  width: 50vh;
+  border-radius: 30px;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.17);
+}
+h1 {
+  padding: 20px 0 0 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  text-align: center;
+  color: rgb(185, 218, 247);
+  background: rgb(139, 0, 139);
+  height: 10vh;
+  font-family: "Georgia", sans-serif;
+}
+p {
+  color: #fff;
+  font-size: 20px;
+  margin: 25px;
+}
+.card4 {
+  width: 70%;
+  height: 80vh;
+  position: relative;
+  left: 70px;
+}
+.pics1 {
+  display: flex;
+  justify-content: center;
+}
+
+.pics1 #project-1 {
+  width: 300px;
+  height: 250px;
+  overflow: hidden;
+}
+
+.pics1 #project-2 {
+  width: 300px;
+  height: 250px;
+  overflow: hidden;
+}
+.pics1 img {
+  width: 250px;
+  height: 150px;
+}
+
+.pics2 {
+  display: flex;
+  justify-content: center;
+}
+
+.pics2 #project-3 {
+  width: 300px;
+  height: 250px;
+  overflow: hidden;
+}
+
+.pics2 #project-4 {
+  width: 300px;
+  height: 250px;
+  overflow: hidden;
+}
+.pics2 img {
+  width: 250px;
+  height: 150px;
+}
+
+.card5 {
+  position: relative;
+  left: 80px;
+}
+.profile {
+  position: relative;
+  top: 18em;
+  right: 50px;
+}
+.about,
+.back,
+.accomplishments,
+.profile {
+  background-color: rgb(155, 71, 134);
+  padding: 15px;
+  border-radius: 8px;
+  color: mediumaquamarine;
+  font-family: monospace;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    height: 50vh;
+  }
+  .card {
+    width: 70%;
+    position: relative;
+    top: 150px;
+    text-align: center;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.17);
+  }
+  .card-header {
+    background: rgb(139, 0, 139);
+    padding: 30px 20px;
+  }
+  .pic {
+    display: inline-block;
+    padding: 20px;
+    margin: auto;
+    border-radius: 50%;
+  }
+  .pic img {
+    width: 150px;
+    height: 150px;
+  }
+  .name {
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .title {
+    font-size: 20px;
+    margin: 20px 0 0 0;
+  }
+  .about {
+    left: 60%;
+    top: 90%;
+  }
+  .left {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .right {
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+  }
+  .builder,
+  .collabos,
+  .explore {
+    position: relative;
+  }
+  .builder {
+    bottom: 100px;
+    left: 50px;
+  }
+  .collabos {
+    right: 80px;
+    top: 140px;
+  }
+  .explore {
+    right: 100px;
+    top: 400px;
+  }
+  .unique,
+  .teamplayer,
+  .link {
+    position: relative;
+  }
+  .unique {
+    top: 300px;
+    left: 95px;
+  }
+  .teamplayer {
+    right: 50px;
+    top: 80px;
+  }
+  .link {
+    bottom: 100px;
+    right: 70px;
+  }
+  .card2,
+  .card3,
+  .card4,
+  .card5,
+  .card6,
+  .card7 {
+    position: relative;
+    top: 100px;
+    background: #e6027e;
+    width: 50vw;
+    border-radius: 30px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.17);
+  }
+
+  h1 {
+    padding: 20px 0 0 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    color: rgb(185, 218, 247);
+    background: rgb(139, 0, 139);
+    height: 30px;
+    font-family: "Georgia", sans-serif;
+    font-size: 15px;
+  }
+  p {
+    color: #fff;
+    font-size: 12px;
+    margin: 20px;
+  }
+  .card2,
+  .card3 {
+    margin: 10px;
+    position: relative;
+    bottom: 50px;
+  }
+
+  .card5 {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 130px;
+    position: relative;
+    left: 90px;
+  }
+  .card6,
+  .card7 {
+    height: 130px;
+    margin: 20px;
+  }
+  .profile {
+    position: relative;
+    top: 35em;
+    right: 80px;
+  }
+  .about,
+  .back,
+  .accomplishments,
+  .profile {
+    background-color: rgb(155, 71, 134);
+    padding: 10px;
+    border-radius: 8px;
+    color: mediumaquamarine;
+    font-family: monospace;
+  }
+  #left {
+    position: relative;
+    bottom: 150px;
+  }
+}
