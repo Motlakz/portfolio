@@ -105,7 +105,6 @@ a {
   right: 200px;
 }
 .card2,
-.card3,
 .card4,
 .card5,
 .card6,
@@ -199,7 +198,11 @@ p {
   font-family: monospace;
 }
 .card3 {
-  height: 90vh;
+  background: #e6027e;
+  height: 80vh;
+  width: 50vh;
+  border-radius: 30px;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.17);
 }
 
 @media only screen and (max-width: 600px) {
